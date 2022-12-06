@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.backprpfile{
+    width: 90%;
+    height: 7px;
+    max-height: 450px;
+    max-width: 450px;
+    
+}
+
+.profile-pic{
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    background: floralwhite;
+    color: #333;
+    
+}
+.profile-pic{
+    width: 140px;
+    border-radius: 50%;
+    margin-top: 5px;
+    box-shadow: 0 0 0 0spx rgb(3, 3, 3);
+    transition: box-shadow 0.5s;
+}
+.profile-pic:hover{
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+.profile-card{
+    font-weight: 800;
+}
+
+.follow-btn{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #ffff;
+    padding: 6px 35px;
+    margin: 25px 0px;
+}
+
+.follow-btn:hover {
+    color:rgb(110, 5, 5);
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.row h2{
+    font-weight: 500;;
+    font-size: 30px;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 80px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 17px;
+} 
